@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	border:0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.white{
+	color: white;
+}
+
+.navbar{
+    display: flex;
+	padding:30px;
+}
+
+.nav-list{
+	display: flex;
+	align-items: center;
+	justify-content:flex-end;
+}
+
+.nav-list li{
+	list-style: none;
+	padding: 0px 20px;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover{
+    color: grey;
+}
+
+.container{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	text-align: center;
+	
+}
+
+.donate{
+	padding: 20px;
+	background-color: rgba(228, 228, 228, 0.8);
+    border-radius: 10px;
+}
+
+label{
+    display: inline-block;
+    width: 20%;
+    text-align:start;
+}
+
+input, textarea {
+  display: inline-block;
+  width: 70%;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.about{
+	display: flex;
+}
+
+img{
+	width: 300px;	
+	opacity: 0.8;
+}
+
+.background{
+	background:rgba(0, 0, 0, 0.4) url('BANNER.jpg');
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-blend-mode:darken;
+}
+
+.content{
+	min-height:93vh;
+}
+
+.btn{
+	border:none;
+	padding: 10px;
+	background:#9dc728; 
+	color:white;
+	letter-spacing: 1.5px;
+	font-size: 15px;
+}
+
+button:hover{
+	transform: scale(1.1);
+}
+
+footer{
+	text-align: center;
+	background-color: rgba(228, 228, 228, 0.8);
+	overflow: hidden;
+	padding-top: 5px;
+}
